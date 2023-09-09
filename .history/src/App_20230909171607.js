@@ -14,8 +14,8 @@ import ItemState from './components/context/ItemState';
 function App() {
   return (
     <div className="App">
-        <Router>
       <ItemState>
+        <Router>
           <Navbar />
           <Routes>
             <Route exact path="/" element={<Main />}></Route>
@@ -25,8 +25,8 @@ function App() {
           </Routes>
           {/* <Main /> */}
           <Footer />
-      </ItemState>
         </Router>
+      </ItemState>
     </div>
   );
 }
