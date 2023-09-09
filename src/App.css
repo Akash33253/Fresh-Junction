@@ -1,0 +1,730 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Great+Vibes&family=Inter&family=News+Cycle&family=Roboto+Slab&family=Satisfy&display=swap');
+
+#banner {
+     height: 36rem;
+     background: url('./images/bg.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+#homeBtn{
+     display: none;
+     color: white;
+}
+
+body {
+     background-color: rgb(20 20 23);
+}
+
+#navibar {
+     /* background-color: rgba(0, 0, 0, 0.895); */
+     height: 4rem;
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+     /* border: 2px solid white; */
+     opacity: 0.8;
+}
+
+#brandName {
+     font-family: 'Satisfy', cursive;
+     font-size: 30px;
+     color: white;
+}
+
+#navibar li {
+     /* border: 2px solid pink; */
+     margin: 0px 10px;
+}
+
+#navibar li :hover {
+     /* border: 2px solid pink; */
+     color: black;
+}
+
+#navibar .btn {
+     margin: 0px 10px;
+}
+
+#headBox {
+     color: white;
+     /* border: 2px solid     white; */
+     width: 70%;
+     padding: 30px 20px;
+     height: 8 0%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+}
+
+#headBox h1 {
+     font-size: 80px;
+     padding: 10px;
+     margin: 10px;
+
+}
+
+#headBox img {
+     border: 2px solid aqua;
+     width: 100px;
+
+
+}
+
+#headBox h4 {
+     padding: 10px;
+     margin: 10px;
+
+}
+
+#main {
+     text-align: center;
+     background-color: rgb(20 20 23);
+}
+
+#main h3 {
+     /* border-width: 3px; */
+     color: white;
+     height: 1000pxx;
+}
+
+#frontBtns .btns {
+     text-decoration: none;
+     background-color: rgb(127, 127, 75);
+     color: black;
+     margin: 35px 20px;
+     border-radius: 3px;
+     display: inline-block;
+     border: none;
+     padding: 2px 5px;
+     width: 100px;
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+     font-weight: 500;
+}
+
+#frontBtns .btns:hover {
+     background-color: rgb(43, 43, 25);
+}
+
+#about {
+     color: white;
+     /* border: 2px solid white; */
+     display: flex;
+     padding-top: 100px;
+     /* box-shadow: 1px 1px 8px 5px rgb(0, 0, 0); */
+}
+
+#about div {
+     width: 450px;
+     /* box-shadow: 1px 1px 8px 2px rgb(0, 0, 0); */
+     /* text-align: center; */
+     /* height: 1000px; */
+}
+
+#about h4 {
+     /* box-shadow: 1px 1px 8px 2px rgb(0, 0, 0); */
+     font-size: 40px;
+     margin-top: 50px;
+     padding-top: 5px;
+     padding-bottom: 20px;
+     border-bottom: 2px solid goldenrod;
+     border-radius: 40px;
+     /* border: 2px solid grey; */
+}
+
+#about p {
+     font-size: 16px;
+     margin: 10px 30px;
+     padding-top: 10px;
+}
+
+#about img {
+     width: 350px;
+     margin: 20px 100px;
+     box-shadow: 1px 1px 30px 2px rgb(0, 0, 0);
+     /* border-radius: 10px; */
+}
+
+#special {
+     margin-top: 150px;
+}
+
+#special h4 {
+     font-size: 30px;
+     color: white;
+     border-bottom: 2px solid goldenrod;
+     /* border: 2px solid green; */
+     margin-bottom: 20px;
+     display: inline;
+     border-radius: 25px;
+     padding: 15px;
+}
+
+#SpecialContainer {
+     display: flex;
+     flex-direction: row;
+     margin-top: 40px;
+}
+
+.card {
+     width: 18rem;
+     margin: 40px auto;
+     box-shadow: 1px 1px 8px 2px rgb(0, 0, 0);
+     border: none;
+     color: white;
+     margin-bottom: 100px;
+}
+
+#menu {
+     text-align: center;
+     margin-top: 40px;
+}
+
+#menu h4 {
+     font-size: 30px;
+     color: white;
+     border-bottom: 2px solid goldenrod;
+     /* border: 2px solid green; */
+     margin-bottom: 20px;
+     display: inline;
+     border-radius: 25px;
+     padding: 15px;
+}
+
+#menuOptions {
+     margin-top: 70px;
+}
+
+.btnMenuOptions {
+     color: white;
+     background-color: rgb(20 20 23);
+     padding: 8px 30px;
+     border: none;
+     margin: 50px 30px;
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+}
+
+.active1 {
+     box-shadow: 1px 1px 8px 1px goldenrod;
+}
+
+#menuList {
+     width: 850px;
+     /* border: 2px solid white; */
+     display: grid;
+     grid-template-columns: auto auto;
+     column-gap: 50px;
+     row-gap: 30px;
+     padding: 20px 10px;
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+}
+
+#menuList img {
+     width: 100px;
+     height: 70px;
+     border-radius: 3px;
+}
+
+.card1 {
+     /* border: 2px solid green; */
+     display: grid;
+     grid-template-columns: 120px auto 70px;
+}
+
+.itemContent {
+     /* border: 2px solid white; */
+     /* width: 200px; */
+     color: white;
+     text-align: left;
+     align-items: center;
+     justify-content: center;
+}
+
+.itemContent h3 {
+     font-size: 22px;
+}
+
+.itemButtons {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.itemButtons button {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 25px;
+     height: 25px;
+     color: white;
+     border: none;
+     background-color: rgb(20 20 23);
+     padding: 3px;
+     margin: 3px;
+     text-align: center;
+}
+
+.itemButtons input {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 25px;
+     margin: 3px;
+     height: 25px;
+     background-color: rgb(20 20 23);
+     color: white;
+     text-align: center;
+     border: none;
+}
+
+.itemButtons button:active {
+     box-shadow: 1px 1px 4px 1px goldenrod;
+}
+
+#table {
+
+     margin-top: 40px;
+     padding-bottom: 50px;
+     text-align: center;
+     color: white;
+}
+
+#table h4 {
+     font-size: 30px;
+     color: white;
+     border-bottom: 2px solid goldenrod;
+     /* border: 2px solid green; */
+     margin-bottom: 20px;
+     display: inline;
+     border-radius: 25px;
+     padding: 15px;
+}
+
+.tableForm {
+     width: 500px;
+     margin-top: 60px;
+     /* border: 2px solid white; */
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+     padding: 20px 0px;
+}
+
+.tableForm input {
+     text-align: center;
+     width: 300px;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid goldenrod;
+     box-shadow: 0px 5px 5px 2px rgb(0, 0, 0);
+     margin: 10px 0px;
+     padding: 5px;
+     color: white;
+     border-radius: 12px;
+}
+
+.tableForm input::placeholder {
+     color: white
+}
+
+#submitBtn,
+#submitBtn2 {
+     margin-top: 20px;
+     display: block;
+     margin: 10px auto;
+     width: 100px;
+}
+
+#submitBtn:hover,
+#submitBtn2:hover {
+     /* border-bottom: 1px solid rgb(255, 0, 0); */
+     background-color: rgb(0, 0, 0);
+}
+
+.orderBtnCont {
+     display: inline-block;
+     height: 50px;
+     /* border: 2px solid white; */
+     margin: 20px;
+}
+
+#orderBtn {
+     color: white;
+     background-color: rgb(20 20 23);
+     padding: 5px 10px;
+     margin: 10px 20px;
+     border: none;
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+}
+
+#orderBtn:hover {
+     box-shadow: 1px 1px 8px 3px goldenrod;
+}
+
+#foot {
+     display: flex;
+     flex-direction: row;
+     background: rgb(28, 28, 28)
+}
+
+.box1 {
+     padding-top: 20px;
+     width: 30%;
+     /* border: 2px silver solid; */
+}
+
+.box2 {
+     /* border: 1px solid blue; */
+     display: flex;
+     flex-direction: column;
+     /* border: 2px solid green; */
+     width: 100%;
+     padding-top: 30px;
+}
+
+.footContent {
+     display: flex;
+     flex-direction: row;
+     /* border: 2px solid red; */
+     padding-bottom: 25px;
+     padding-top: 5px;
+}
+
+.footContent p {
+     width: 70%;
+     text-align: center;
+     /* border: 2px   solid pink; */
+     padding: 12px 9px;
+     font-size: 0.8rem;
+}
+
+#footBrand {
+     display: inline-block;
+     font-family: 'Satisfy', cursive;
+     /* border: 2px solid yellow; */
+     
+     margin: 0px 50px;
+     /* border: 2px solid aqua; */
+     font-size: 35px;
+     
+}
+
+.footLogo {
+     filter: invert(1);
+     width: 40px;
+     height: 40px;
+     margin: 10px 10px;
+     padding: 2px;
+}
+
+.footLogo:hover {
+     filter: invert(0.8);
+     padding: 0px;
+}
+
+#footLogoContainer {
+     margin: 30px 50px;
+}
+
+#footList {
+     list-style-type: none;
+     /* border: 2px solid aqua; */
+     display: inline-block;
+     margin: 0px 50px;
+     padding: 8px 20px;
+     font-size: 0.9rem;
+     color: rgb(214, 214, 214);
+}
+
+#footList li:hover {
+     color: rgb(255, 255, 255);
+}
+
+#footList li {
+     cursor: pointer;
+}
+
+.copyRight {
+     /* border: 2px solid orange; */
+     text-align: center;
+     font-size: 0.8rem;
+     color: #ffffffd5;
+}
+
+#orderDiv {
+     margin-top: 40px;
+     padding-bottom: 50px;
+     text-align: center;
+     color: white;
+}
+
+#orderDiv h4 {
+     font-size: 30px;
+     color: white;
+     border-bottom: 2px solid goldenrod;
+     /* border: 2px solid green; */
+     margin-bottom: 20px;
+     display: inline;
+     border-radius: 25px;
+     padding: 15px;
+}
+
+.orderForm {
+     width: 500px;
+     margin-top: 60px;
+     /* border: 2px solid white; */
+     box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+     padding: 20px 0px;
+}
+
+.orderForm input,
+textarea {
+     text-align: center;
+     width: 300px;
+     background-color: transparent;
+     border: none;
+     border-bottom: 1px solid goldenrod;
+     box-shadow: 0px 5px 5px 2px rgb(0, 0, 0);
+     margin: 10px 0px;
+     padding: 5px;
+     color: white;
+     border-radius: 12px;
+     resize: none;
+}
+
+.orderForm input::placeholder,
+textarea::placeholder {
+     color: white
+}
+
+
+@media screen and (max-width: 420px) {
+     #banner {
+          height: 700px;
+          background: url('./images/bg2.jpg');
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+     }
+     
+     #headBox {
+          width: auto;
+          padding: 40px 10px;
+          display: flex;
+          flex-direction: column;
+     }
+     #headBox h1 {
+          font-size: 50px;
+          padding: 20px;
+          margin: 0px;
+     }
+     
+     #headBox h4 {
+          padding: 10px;
+          margin: 10px;
+     }
+     
+     #frontBtns .btns {
+          background-color: rgb(14, 19, 7);
+          margin: 35px 20px;
+          border-radius: 3px;
+          border: none;
+          color: white;
+          padding: 6px;
+          width: 100px;
+          box-shadow: 1px 1px 8px 3px rgb(90, 86, 86);
+          font-weight: 500;
+     }
+     
+     #frontBtns button:hover {
+          background-color: rgb(173, 173, 99);
+     }
+     
+     #about {
+          margin-top: 100px;
+          padding-top: 0px;
+          flex-direction: column-reverse;
+     }
+     
+     #about div {
+          width: auto;
+          margin-bottom: 20px;
+          /* border: 2px solid pink; */
+     }
+     
+     #para2 {
+          display: none;
+     }
+     
+     #about h4 {
+          font-size: 35px;
+          padding-bottom: 10px;
+          border-radius: 40px;
+     }
+     
+     #about p {
+          /* border: 2px solid green; */
+          font-size: 15px;
+          margin: 0px 30px;
+          padding-top: 30px;
+     }
+     
+     #about img {
+          width: auto;
+          margin: 40px 20px;
+     }
+     
+     #special {
+          margin-top: 100px;
+     }
+     
+     #special h4 {
+          font-size: 30px;
+          padding: 25px;
+     }
+     
+     #SpecialContainer {
+          flex-direction: column;
+          margin-top: 80px;
+     }
+
+     .card {
+          width: 20rem;
+          margin: 0px auto;
+          margin-bottom: 60px;
+     }
+     #homeBtn{
+          display: block;
+          color: white;
+          font-size: 15px;
+          /* border: 2px soli d white; */
+          margin: 10px;
+     }
+     
+     
+     #foot {
+          flex-direction: column;
+          background: rgb(28, 28, 28)
+          
+     }
+     
+     .box1 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          justify-content: center;
+          align-items: center;
+     }
+     
+     .box2 {
+          width: 100%;
+          padding-top: 10px;
+     }
+     
+     .footContent {
+          flex-direction: row;
+          padding-bottom: 0px;
+          padding-top: 0px;
+     }
+     
+     .footContent p {
+          width: 100%;
+          padding: 12px 19px;
+          font-size: 0.7rem;
+     }
+     
+     #footBrand {     
+          margin: 0px 0px;
+          font-size: 50px;     
+     }
+     
+     .footLogo {
+          width: 30px;
+          height: 30px;
+     }
+     
+     #footLogoContainer {
+          margin: 0px 0px;
+     }
+     
+     #footList {
+          display: none;
+     }
+
+     .copyRight {
+          font-size: 0.9rem;
+          padding: 5px;
+     }
+     
+     #menu h4 {
+          font-size: 30px;
+          color: white;
+          border-bottom: 2px solid goldenrod;
+          /* border: 2px solid green; */
+          margin-bottom: 20px;
+          display: inline;
+          border-radius: 25px;
+          padding: 15px;
+     }
+     
+     #menuOptions {
+          margin-top: 70px;
+     }
+     .cat{
+          display: flex;
+          /* border: 1px solid white; */
+          width: 100%;
+          margin-top: 40px;
+          overflow: hidden;
+          align-items: center;
+          justify-content: center;
+     }
+     .btnMenuOptions {
+          padding: 2px 15px;
+          margin: 20px 10px;
+     }
+     #menuList {
+          width: 100%;
+          grid-template-columns: auto;
+          row-gap: 40px;
+          padding: 10px 10px;
+     }
+
+     #table {     
+          margin-top: 40px;
+          padding-bottom: 50px;
+          text-align: center;
+          color: white;
+     }
+     .tableForm {
+          width: 100%;
+     }
+     
+     .tableForm input {
+          margin: 15px 0px;
+     }
+     
+     .orderForm {
+          width: 100%;
+          margin-top: 60px;
+          /* border: 2px solid white; */
+          box-shadow: 1px 1px 8px 3px rgb(0, 0, 0);
+          padding: 20px 0px;
+     }
+     
+     .orderForm input,
+     textarea {
+          text-align: center;
+          width: 300px;
+          background-color: transparent;
+          border: none;
+          border-bottom: 1px solid goldenrod;
+          box-shadow: 0px 5px 5px 2px rgb(0, 0, 0);
+          margin: 10px 0px;
+          padding: 5px;
+          color: white;
+          border-radius: 12px;
+          resize: none;
+     }
+     
+     .orderForm input::placeholder,
+     textarea::placeholder {
+          color: white
+     }
+}
