@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Fresh-Junction/static/css/main.e95f8e06.css",
+    "main.js": "/Fresh-Junction/static/js/main.a9a80d45.js",
+    "static/js/787.312cc0ee.chunk.js": "/Fresh-Junction/static/js/787.312cc0ee.chunk.js",
+    "static/media/bg.jpg": "/Fresh-Junction/static/media/bg.948c52439db7942eaa1e.jpg",
+    "static/media/special3.jpg": "/Fresh-Junction/static/media/special3.3b81bc506a7ed34651b0.jpg",
+    "static/media/special2.jpg": "/Fresh-Junction/static/media/special2.422051a84cda2e0f23fa.jpg",
+    "static/media/chef.jpg": "/Fresh-Junction/static/media/chef.fe8f3269d27618cbc279.jpg",
+    "static/media/bg2.jpg": "/Fresh-Junction/static/media/bg2.78b78a99a388923efe41.jpg",
+    "static/media/gitLogo.png": "/Fresh-Junction/static/media/gitLogo.53ebe5897a7230413bab.png",
+    "static/media/special1.jpg": "/Fresh-Junction/static/media/special1.5a375e3708d8020f8eac.jpg",
+    "static/media/linkedinLogo.png": "/Fresh-Junction/static/media/linkedinLogo.f88e1e377393b9491cde.png",
+    "static/media/instaLogo.png": "/Fresh-Junction/static/media/instaLogo.3dcfb917c08df7819e92.png",
+    "index.html": "/Fresh-Junction/index.html",
+    "main.e95f8e06.css.map": "/Fresh-Junction/static/css/main.e95f8e06.css.map",
+    "main.a9a80d45.js.map": "/Fresh-Junction/static/js/main.a9a80d45.js.map",
+    "787.312cc0ee.chunk.js.map": "/Fresh-Junction/static/js/787.312cc0ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e95f8e06.css",
+    "static/js/main.a9a80d45.js"
+  ]
+}
