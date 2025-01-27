@@ -25,14 +25,13 @@ export default function Order() {
     const onChange = (e)=>{
         setDetails({...details, [e.target.name]: [e.target.value]})
     }
-    useEffect(() => emailjs.init("04qmjRnJGvLZ1hlvk"), []);
+    useEffect(() => emailjs.init("r0lv7HV9b8EpXg1ME"), []);
     const handleProceed = async(e)=>{
         e.preventDefault();
         // console.log("Clicked")
-        const serviceId = "service_zj12hh9";
-        const templateId = "template_u6ihu0w"
+        const serviceId = "service_w4ihzlw";
+        const templateId = "template_jvzxiqg"
         try {
-
             await emailjs.send(serviceId, templateId, {
                 recipient: details.email,
                 to_name : details.name,

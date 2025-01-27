@@ -15,11 +15,11 @@ export default function Table() {
     const onChange = (e)=>{
         setDetails({...details, [e.target.name] : [e.target.value]})
     }
-    useEffect(() => emailjs.init("04qmjRnJGvLZ1hlvk"), []);
+    useEffect(() => emailjs.init("r0lv7HV9b8EpXg1ME"), []);
     const handleSubmit = async(e)=>{
         e.preventDefault();
-        const serviceId = "service_zj12hh9";
-        const templateId = "template_rwgi7d5"
+        const serviceId = "service_w4ihzlw";
+        const templateId = "template_hgmeeii"
         try {
 
             await emailjs.send(serviceId, templateId, {
