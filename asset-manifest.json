@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Fresh-Junction/static/css/main.e95f8e06.css",
-    "main.js": "/Fresh-Junction/static/js/main.5c5472b5.js",
+    "main.js": "/Fresh-Junction/static/js/main.4291a2fc.js",
     "static/js/787.312cc0ee.chunk.js": "/Fresh-Junction/static/js/787.312cc0ee.chunk.js",
     "static/media/bg.jpg": "/Fresh-Junction/static/media/bg.948c52439db7942eaa1e.jpg",
     "static/media/special3.jpg": "/Fresh-Junction/static/media/special3.3b81bc506a7ed34651b0.jpg",
@@ -14,11 +14,11 @@
     "static/media/instaLogo.png": "/Fresh-Junction/static/media/instaLogo.3dcfb917c08df7819e92.png",
     "index.html": "/Fresh-Junction/index.html",
     "main.e95f8e06.css.map": "/Fresh-Junction/static/css/main.e95f8e06.css.map",
-    "main.5c5472b5.js.map": "/Fresh-Junction/static/js/main.5c5472b5.js.map",
+    "main.4291a2fc.js.map": "/Fresh-Junction/static/js/main.4291a2fc.js.map",
     "787.312cc0ee.chunk.js.map": "/Fresh-Junction/static/js/787.312cc0ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e95f8e06.css",
-    "static/js/main.5c5472b5.js"
+    "static/js/main.4291a2fc.js"
   ]
 }
